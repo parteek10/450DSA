@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T;
+	cin>>T;
+	for(int i=0;i<T;i++){
+	  int N,A,B;
+	  
+	  cin>>N>>A>>B;
+	  string S;
+	  cin>>S;
+	  N=S.size();
+	  int c1=0,c0=0;
+	  for(int j=0;j<N;j++){
+	    if(S[j]=='1'){
+	       c1++;
+	       }
+	  }
+	  
+	  cout<<A*(N-c1)+B*(c1)<<endl;
+	}
+	return 0;
+}
