@@ -24,7 +24,7 @@ where [url you just copied] is the url to this repository (your fork of this pro
 For example:
 
 ```
-git clone https://github.com/thelokeshgoel00/Competitive_Programming.git
+git clone https://github.com/parteek10/450DSA.git
 ```
 
 ## Create a branch
