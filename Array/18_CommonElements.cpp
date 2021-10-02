@@ -1,3 +1,5 @@
+// problem link : https://practice.geeksforgeeks.org/problems/common-elements1132/1
+
 #include <iostream>
 using namespace std;
  
