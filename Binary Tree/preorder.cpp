@@ -15,7 +15,6 @@ public:
         if(node == NULL) return; 
          preorder.push_back(node->val); 
         dfs(node->left, preorder); 
-       
         dfs(node->right, preorder); 
     }
     
