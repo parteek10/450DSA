@@ -1,7 +1,19 @@
 # 450DSA
 This repo contains solution of 450 DSA sheet by love babbar . Here is the link for that list : https://450dsa.com/
 
-# Contribution Guide
+# Guidlines to be followed 
+
+* Only 450 DSA questions are allowed
+* Cpp file must contain problem link in the beginning 
+* Complete program should be there including header files and main fuction .
+* Program should be properly commented
+* Add program in the respective topic folder , if folder is not there create one 
+* Name of the file should be [Index of the Program]_[Program Name]  For Ex. 
+
+for problem reverse the array 3 , name of the file should be => 0_ReverseTheArray3.cpp . For index no. refer https://450dsa.com/
+
+
+# How to make a Pull request 
 ##### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
 ### Fork this repository
@@ -45,14 +57,6 @@ For example:
 
 ```
 git checkout -b add-hritik
-```
-
-## Add new file 
-
-If the folder for that topic exist , add a new cpp file with file name as problem number. if the folder for that topic does not exist , create a new one and add the cpp file . 
-For example : 
-```
-for the problem reverse the array 3 : array->0.cpp   
 ```
 
 ## Make necessary changes and commit those changes

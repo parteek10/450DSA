@@ -1,0 +1,37 @@
+// Problem Link : https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1
+
+#include <bits/stdc++.h> 
+using namespace std; 
+
+class Solution
+{
+public:
+    int countFriendsPairings(int n) 
+    { 
+        // code here
+        long long f1 , f2 , i , f ; 
+        long long mod = 1000000007 ;
+        f1 = 1 , f2 = 1  ; 
+        //f1 = ans(n-1) , f2 = ans(n-2) 
+        for(i = 2 ; i<=n ; i++)  {
+            f = (f1 + ((i-1)*f2)%mod )%mod ; 
+            f2 = f1 ;
+            f1 = f ;
+        }
+        return f1 ; 
+    }
+};    
+ 
+int main() 
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+    	int n;
+    	cin>>n;
+    	Solution ob;
+    	cout <<ob.countFriendsPairings(n); 
+    	cout<<endl;
+    }
+} 
