@@ -1,3 +1,5 @@
+//https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+
 // { Driver Code Starts
 // Program to find the maximum profit job sequence from a given array 
 // of jobs with deadlines and profits 
