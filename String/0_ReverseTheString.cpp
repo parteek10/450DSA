@@ -30,4 +30,5 @@ int main(){
   Solution ob;
   ob.reverseString(s);
   //s becomes cba
+    return 0;
 }
