@@ -23,9 +23,9 @@ public:
 
 int main(){
  vector<char> s;
-  v.push_back('a');
-  v.push_back('b');
-  v.push_back('c');
+  s.push_back('a');
+  s.push_back('b');
+  s.push_back('c');
   //s becomes abc
   Solution ob;
   ob.reverseString(s);
