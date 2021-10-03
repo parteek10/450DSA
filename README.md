@@ -9,6 +9,9 @@ This repo contains solution of 450 DSA sheet by love babbar . Here is the link f
 * Program should be properly commented
 * Add program in the respective topic folder , if folder is not there create one 
 * Name of the file should be [Index of the Program]_[Program Name]  For Ex. 
+* All competetive programming handbook, help material, psuedo code is invited. 
+* This is an open source celebration and its spirit should be kept in mind while contributing.
+* Poor indentation and code structure is prohibited.
 
 for problem reverse the array 3 , name of the file should be => 0_ReverseTheArray3.cpp . For index no. refer https://450dsa.com/
 
